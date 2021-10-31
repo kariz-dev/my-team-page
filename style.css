@@ -1,0 +1,53 @@
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+* {
+    border: 0;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    color: #000;
+}
+
+.header {
+    padding: 0 12px;
+}
+
+.header .title {
+    font-family: 'PT Serif', serif;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: -0.045em;
+    text-align: left;
+    margin-top: 72px;
+}
+
+.header .container-text .subtitle {
+    text-transform: uppercase;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+    margin-top: 38px;
+}
+
+.header .container-text .text {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 21px;
+    margin-top: 10px;
+}
+
+.container-fotos {
+    padding: 0 20px;
+}
+
